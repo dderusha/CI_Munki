@@ -15,3 +15,6 @@ CI_munki will ask you to enter in your munki server such as http://10.1.1.2/munk
 Next you will be asked for the desired manifest you would like applied to the workstation.
 Lastly, when CI_munki exits you should restart your computer for the changes to take effect.
 
+## Acknowledgments
+
+Thank you to Damon O’Hare for .pkg python install assistance. Part of muni’s original code. Always thankful to MacMule for his last logged in user writeup. Lastly @elios (macadmins slack #python channel) for help with CFPreferencesSetMultiple.
