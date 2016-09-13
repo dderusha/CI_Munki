@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+# Written by Dan De Rusha 2016-9-12
 import CoreFoundation
 import subprocess
 import urllib
@@ -14,9 +14,6 @@ package = '/Users/' + LOGGED_IN_USER + '/munkitools-2.8.0.2810.pkg'
 
 res = urllib.urlretrieve('https://github.com/munki/munki/releases/download/v2.8.0/munkitools-2.8.0.2810.pkg', package)
 
-
-# cmd = ['sudo', '/usr/sbin/installer', '-pkg', package, '-tgt', '/']
-# or
 cmd = ['sudo', '/usr/sbin/installer', '-pkg', package, '-tgt', '/']
 
 install_process = subprocess.Popen(cmd, shell=False, bufsize=1,
