@@ -33,6 +33,3 @@ keys = {"SoftwareRepoURL": munkiserver, "ClientIdentifier": manifest, }
 ManagedInstalls = '/Library/Preferences/ManagedInstalls.plist'
 
 CoreFoundation.CFPreferencesSetMultiple(keys, [], "ManagedInstalls",  CoreFoundation.kCFPreferencesAnyUser, CoreFoundation.kCFPreferencesCurrentHost)
-
-#CoreFoundation.CFPreferencesSetMultiple(keys, "/Library/Preferences/ManagedInstalls.plist")
-#CoreFoundation.CFPreferencesAppSynchronize("/Library/Preferences/ManagedInstalls.plist")
