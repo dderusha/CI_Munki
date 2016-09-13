@@ -1,6 +1,6 @@
 #!/usr/bin/python
+
 import CoreFoundation
-# import requests
 import subprocess
 import urllib
 from SystemConfiguration import SCDynamicStoreCopyConsoleUser
@@ -12,8 +12,6 @@ manifest = raw_input("Enter manifest: ")
 
 package = '/Users/' + LOGGED_IN_USER + '/munkitools-2.8.0.2810.pkg'
 
-# res = requests.get('https://github.com/munki/munki/releases/download/v2.8.0/munkitools-2.8.0.2810.pkg')
-# url_handle = urllib.urlopen('https://github.com/munki/munki/releases/download/v2.8.0/munkitools-2.8.0.2810.pkg')
 res = urllib.urlretrieve('https://github.com/munki/munki/releases/download/v2.8.0/munkitools-2.8.0.2810.pkg', package)
 
 
