@@ -11,7 +11,7 @@ CI_munki is tool to help with the installation of munkitools-2.8.0.2810 on OS X.
 - at the Terminal prompt type “python” minus the “”
 - drag CI_munki.py to the same terminal window, and press return
 
-CI_munki will ask you to enter in your munki server such as http://10.1.1.2/munki_repo
+CI_munki will ask you to enter in your munki server such as http://10.1.1.2/munki_repo.
 Next you will be asked for the desired manifest you would like applied to the workstation.
 Lastly, when CI_munki exits you should restart your computer for the changes to take effect.
 
